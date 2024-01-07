@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 40px;
+}
+
+.logos {
+  border-radius: 75em;
+
+  border: 5px solid rgb(218, 7, 7);
+}
+
+.title {
+  font-size: 1em;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.parrafo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(62, 102, 147);
+}
+
+#maintitle {
+  font-size: 85px;
+  color: blueviolet;
+}
+
+#titulos {
+  border: 1.5em solid red;
+  width: 65vw;
+  margin: auto;
+  padding: 1.5em;
+}
+
+header {
+  background-color: bisque;
+  margin-top: 0px;
+  border: 1px solid purple;
+}
+#contenedorcards {
+  display: flexbox;
+  background-color: rgb(232, 250, 215);
+  width: 85vw;
+  margin: 1.5em auto;
+  border: solid black 1px;
+  border-radius: 25px 2px 35px 44px;
+}
+.cards {
+  margin: auto;
+  background-color: #18ae95;
+  border: 0.05em solid blue;
+  width: max-content;
+  border-radius: 15%;
+  transition: 3s;
+}
+
+.cards:hover {
+  background-color: purple;
+}
