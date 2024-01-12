@@ -3,6 +3,10 @@ function verificarPropiedad(objeto, propiedad) {
   // Retorna true si la tiene, sino retorna false.
   // PISTA: Puedes usar el método hasOwnProperty().
   // Tu código:
+  if (!objeto.propertyIsEnumerable(propiedad) && propiedad in objeto) {
+    return false;
+  }
+  return objeto.hasOwnProperty(propiedad) || propiedad in objeto;
 }
 
 module.exports = verificarPropiedad;

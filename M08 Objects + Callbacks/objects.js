@@ -17,4 +17,3 @@ var autos = {};
 autos.marcas = ["Ford", "Audi", "Ferrari"];
 
 console.log(autos);
-console.log("dd");

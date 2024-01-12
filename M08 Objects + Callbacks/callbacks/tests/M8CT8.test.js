@@ -1,9 +1,11 @@
 const buscarElemento = require("../ejercicios/08");
+test("Test case 1: Element found", function () {
+  const array1 = [1, 2, 3, 4, 5];
+  const callback1 = (element) => element === 3;
 
+  expect(buscarElemento(array1, callback1)).toEqual(3);
+});
 // Test case 1: Element found
-const array1 = [1, 2, 3, 4, 5];
-const callback1 = (element) => element === 3;
-console.log(buscarElemento(array1, callback1)); // Expected output: 3
 
 // Test case 2: Element not found
 const array2 = [1, 2, 3, 4, 5];
