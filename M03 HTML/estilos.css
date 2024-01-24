@@ -19,3 +19,7 @@
   font-size: 80px;
   color: rgb(31, 30, 38);
 }
+
+div * p {
+  color: rgb(0, 255, 123);
+}
